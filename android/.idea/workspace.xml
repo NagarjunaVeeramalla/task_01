@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="818afc9e-c7d7-4deb-8d74-922f0183661b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/assets/chatgpt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/assets/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/assets/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/keys.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/model/chat_completion_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/model/dalle_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/model/edit_response.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/provider/chat_completion_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/provider/dalle_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/repo/repo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/screens/chat_completion_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/screens/dalle_image_gen_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/widgets/chat_bubble.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/widgets/loading_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../chat_app/lib/widgets/test_composer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/assets/icon_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/assets/icon_image_type.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/assets/icon_no_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/assets/icon_pdf_type.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/assets/icon_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/helper/snackBar_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/models/file_card_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/provider/auth_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/provider/document_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/provider/user_info_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/add_document_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/authentication_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/document_view_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/forgot_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/settings_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/screens/splash_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/custom_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/custom_floating_action_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/custom_home_app_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/custom_text_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/file_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/screen_background_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../doc_saver_app/lib/widgets/setting_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/models/expense.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/chart/chart.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/chart/chart_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/expenses.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/expenses_list/ExpensesList.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/expenses_list/expense_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expense_tracker/lib/widgets/new_expense.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../favourites_places_app/lib/models/places.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../favourites_places_app/lib/screens/add_place.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../favourites_places_app/lib/screens/places.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../favourites_places_app/lib/screens/places_detail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../favourites_places_app/lib/widgets/places_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/constants/app_api_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/constants/app_dimensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/helper/sized_box_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/model/dto/random_dog_image_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/model/entity/profile_entity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/model/entity/random_dog_image_entity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/provider/profile_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/provider/random_dog_image_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/repo/profile_repo/profile_repo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/repo/profile_repo/profile_repo_impl.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/repo/random_dog_image_repo/random_dog_image_repo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/repo/random_dog_image_repo/random_dog_image_repo_impl.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/screens/enable_bluetooth_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/screens/profile_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/screens/random_dog_image_display_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/assets/images/dice-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/lib/dice_roller.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/lib/gradient_container.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../first_app/lib/styled_text.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_todo_app/lib/data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_todo_app/lib/my_home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_todo_app/lib/new_task_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_todo_app/lib/todo_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_todo_app/lib/todo_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/assets/app_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/assets/person_line_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/assets/poster.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/all_imports.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/app_api_constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/app_colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/app_dimens.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/app_strings.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/app_text_styles.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/constants/keys.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/helper/sized_box_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/helper/snack_bar_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/helper/validation_helper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/logger.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/dto/LoginDto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/dto/signup_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/dto/update_user_info_dto.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/entity/LoginEntity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/entity/sign_up_entity.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/model/error/firebase_auth_error.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/provider/login_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/provider/reset_password_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/provider/sign_up_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/repo/auth_repo/auth_repo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/repo/auth_repo/auth_repo_impl.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/screen/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/screen/login_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/screen/reset_password_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/screen/sign_up_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/widget/custom_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/widget/custom_text_field.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/widget/image_picker_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../grocery_app/lib/widget/screen_background_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/assets/user_image.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/app_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/data/exercise.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/data/work_out_category_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/model/exercise_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/model/work_out_category_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/pages/bmi_calculator_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/pages/exercise_detail_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/pages/exercise_list_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/pages/filter_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/pages/my_home_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/widgets/exercise_card_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gym_app/lib/widgets/workout_category_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/data/dummy_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/models/category.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/models/meal.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/provider/favourites_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/provider/filters_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/provider/meals_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/screens/categories.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/screens/filters.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/screens/meal_details.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/screens/meals.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/screens/tabs.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/widgets/category_grid_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/widgets/main_drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/widgets/meal_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../meals_app/lib/widgets/meal_item_trait.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/assets/images/quiz-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/answer_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/data/questions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/models/questions_summary.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/models/quiz_questions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/question_identifier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/questions_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/quiz.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/results_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/start_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../quiz_app_new/lib/summary_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shopping_app/lib/data/categories.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shopping_app/lib/models/category.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shopping_app/lib/models/grocery_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shopping_app/lib/screens/new_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shopping_app/lib/widgets/grocery_list.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../to_do_app/lib/demo_buttons.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../to_do_app/lib/keys/checkable_todo_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../to_do_app/lib/keys/keys.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../to_do_app/lib/keys/todo_item.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Clima-Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Clima-Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WhiteLabelKotlin/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bitcoin-ticker-flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bitcoin-ticker-flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../bmi-calculator-flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../bmi-calculator-flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../flash-chat-flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../flash-chat-flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../mi_card_flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../mi_card_flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../quizzler-flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../quizzler-flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../xylophone-flutter" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../xylophone-flutter" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RNskQwSTEdSl8VL0kpYM79w6Qy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DEBUGGABLE_DEVICE": "oneplus-eb2101-50b4496a",
+    "DEBUGGABLE_PROCESS": "com.example.fin_info_com_task",
+    "DEBUGGER_ID": "Auto",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHOW_ALL_PROCESSES": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="android.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="818afc9e-c7d7-4deb-8d74-922f0183661b" name="Changes" comment="" />
+      <created>1687102016579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687102016579</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>128</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>129</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>127</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>130</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>139</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>140</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>133</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>84</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>78</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>77</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/com/example/fin_info_com_task/MainActivity.kt</url>
+          <line>73</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
