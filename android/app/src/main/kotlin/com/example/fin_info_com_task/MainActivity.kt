@@ -22,31 +22,27 @@ class MainActivity : FlutterActivity() {
     private val METHOD_STARTING_STATE = "startingState"
 
     private lateinit var channel: MethodChannel
+
+    private lateinit var bluetoothManager: BluetoothManager
     private lateinit var bluetoothAdapter: BluetoothAdapter
 
-    private var CURRENT_STATE = "";
+    private var CURRENT_STATE = ""
 
-    private lateinit var broadCast: MyBroadcastReceiver;
+    private lateinit var broadCast: MyBroadcastReceiver
+
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
-
-        callBluetooth()
+        bluetoothManager = context.getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
+        callBluetoothState()
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-    }
-
-    private fun callBluetooth() {
+    private fun callBluetoothState() {
+        bluetoothAdapter = bluetoothManager.adapter
         channel = MethodChannel(flutterEngine!!.dartExecutor.binaryMessenger, CHANNEL)
         channel.setMethodCallHandler { call, result ->
-            println("NATIVE_METHOD ${call.method}")
             when (call.method) {
                 METHOD_BLUETOOTH_ON -> {
-                    val bluetoothManager =
-                        context.getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-                    bluetoothAdapter = bluetoothManager.adapter
                     if (!bluetoothAdapter.isEnabled) {
                         if (ActivityCompat.checkSelfPermission(
                                 this,
@@ -75,9 +71,6 @@ class MainActivity : FlutterActivity() {
                     }
                 }
                 METHOD_BLUETOOTH_OFF -> {
-                    val bluetoothManager =
-                        context.getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-                    bluetoothAdapter = bluetoothManager.adapter
                     bluetoothAdapter.disable()
                     CURRENT_STATE = METHOD_BLUETOOTH_OFF
                     result.success(CURRENT_STATE)
@@ -86,22 +79,12 @@ class MainActivity : FlutterActivity() {
                     val filter = IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED)
                     broadCast = object : MyBroadcastReceiver() {
                         override fun onNewState(boolean: Boolean) {
-                            /*if (boolean) {
-                                result.success(METHOD_BLUETOOTH_ON)
-                            } else {
-                                result.success(METHOD_BLUETOOTH_OFF)
-                            }*/
+                           // result.success(if (boolean) METHOD_BLUETOOTH_ON else METHOD_BLUETOOTH_OFF)
                         }
                     }
                     registerReceiver(broadCast, filter)
-                    val bluetoothManager =
-                        context.getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-                    bluetoothAdapter = bluetoothManager.adapter
-                    CURRENT_STATE = if (bluetoothAdapter.isEnabled) {
-                        METHOD_BLUETOOTH_ON
-                    } else {
-                        METHOD_BLUETOOTH_OFF
-                    }
+                    CURRENT_STATE =
+                        if (bluetoothAdapter.isEnabled) METHOD_BLUETOOTH_ON else METHOD_BLUETOOTH_OFF
                     result.success(CURRENT_STATE)
                 }
             }
@@ -127,7 +110,6 @@ class MainActivity : FlutterActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         when (requestCode) {
             1 -> {
-                println("ON_REQUEST_PERMISSION_CALLED")
                 if (grantResults.isNotEmpty() && grantResults[0] ==
                     PackageManager.PERMISSION_GRANTED
                 ) {
@@ -137,15 +119,10 @@ class MainActivity : FlutterActivity() {
                         ) ==
                                 PackageManager.PERMISSION_GRANTED)
                     ) {
-                        println("ON_REQUEST_PERMISSION_BLUETOOTH_CALLED")
-                        val bluetoothManager =
-                            context.getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-                        bluetoothAdapter = bluetoothManager.adapter
                         startActivityForResult(
                             Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE),
                             2
                         )
-                        //Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show()
                     }
                 }
                 return

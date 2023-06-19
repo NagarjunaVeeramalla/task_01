@@ -21,8 +21,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="fin_info_com_task"
-        android:testOnly="true" >
+        android:label="fin_info_com_task" >
         <activity
             android:name="com.example.fin_info_com_task.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
