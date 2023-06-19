@@ -1,0 +1,4 @@
+#Mon Jun 19 13:36:54 IST 2023
+base.0=/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

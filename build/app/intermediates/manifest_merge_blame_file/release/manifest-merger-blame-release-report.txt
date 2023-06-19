@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fin_info_com_task"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:4:5-68
+11-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+12-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:5:5-76
+12-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:6:5-66
+13-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:7:5-78
+14-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:7:22-76
+15
+16    <application
+17        android:name="android.app.Application"
+17-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:10:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:11:9-43
+20        android:label="fin_info_com_task" >
+20-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:12:9-42
+21        <activity
+21-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:13:9-32:20
+22            android:name="com.example.fin_info_com_task.MainActivity"
+22-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:14:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:15:13-163
+24            android:exported="true"
+24-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:16:13-36
+25            android:hardwareAccelerated="true"
+25-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:17:13-47
+26            android:launchMode="singleTop"
+26-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:18:13-43
+27            android:theme="@style/LaunchTheme"
+27-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:19:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:20:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:25:13-27:57
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:26:17-72
+38                android:resource="@style/NormalTheme" />
+38-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:27:17-54
+39
+40            <intent-filter>
+40-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:28:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:29:17-69
+41-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:30:17-77
+43-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:30:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <receiver
+47-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:34:9-41:20
+48            android:name="com.example.fin_info_com_task.MainActivity$MyBroadcastReceiver"
+48-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:35:13-61
+49            android:exported="false"
+49-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:36:13-37
+50            android:permission="android.permission.BLUETOOTH_CONNECT" >
+50-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:37:13-70
+51            <intent-filter>
+51-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:38:13-40:29
+52                <action android:name="android.intent.action.ACTION_FOUND" />
+52-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:39:17-77
+52-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:39:25-74
+53            </intent-filter>
+54        </receiver>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:44:9-46:33
+60            android:name="flutterEmbedding"
+60-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:45:13-44
+61            android:value="2" />
+61-->/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/AndroidManifest.xml:46:13-30
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+69    </application>
+70
+71</manifest>

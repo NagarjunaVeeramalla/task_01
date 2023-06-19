@@ -1,0 +1,12 @@
+com.example.fin_info_com_task.app-jetified-window-java-1.0.0-beta04-0 /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.fin_info_com_task.app-core-1.6.0-1 /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.example.fin_info_com_task.app-jetified-annotation-experimental-1.1.0-2 /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.fin_info_com_task.app-jetified-window-1.0.0-beta04-3 /Users/nagarjunaveeramalla/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.example.fin_info_com_task.app-main-4 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/main/res
+com.example.fin_info_com_task.app-release-5 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/android/app/src/release/res
+com.example.fin_info_com_task.app-pngs-6 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/generated/res/pngs/release
+com.example.fin_info_com_task.app-resValues-7 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/generated/res/resValues/release
+com.example.fin_info_com_task.app-rs-8 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/generated/res/rs/release
+com.example.fin_info_com_task.app-mergeReleaseResources-9 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.fin_info_com_task.app-mergeReleaseResources-10 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.fin_info_com_task.app-merged_res-11 /Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/intermediates/merged_res/release
