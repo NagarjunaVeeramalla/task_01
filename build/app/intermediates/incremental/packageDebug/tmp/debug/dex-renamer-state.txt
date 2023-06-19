@@ -1,4 +1,0 @@
-#Mon Jun 19 07:49:12 IST 2023
-base.0=/Users/nagarjunaveeramalla/flutter_projects/development/playground/info_com_task/task_01/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

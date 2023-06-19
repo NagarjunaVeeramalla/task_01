@@ -1,4 +1,0 @@
--keep class android.app.Application { <init>(); }
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
--keep class com.example.fin_info_com_task.MainActivity { <init>(); }
--keep class com.example.fin_info_com_task.MainActivity$MyBroadcastReceiver { <init>(); }
