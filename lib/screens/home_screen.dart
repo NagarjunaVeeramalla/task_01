@@ -21,28 +21,23 @@ class HomeScreen extends StatelessWidget {
               title: const Text('Random dog Images'),
               trailing: const Icon(Icons.keyboard_arrow_right_outlined),
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => RandomDogImageDisplayScreen()));
+                Navigator.of(context)
+                    .pushNamed(RandomDogImageDisplayScreen.routeName);
               },
             ),
             ListTile(
               title: const Text('Enable bluetooth'),
               trailing: const Icon(Icons.keyboard_arrow_right_outlined),
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => EnableBlueToothScreen()));
+                Navigator.of(context)
+                    .pushNamed(EnableBlueToothScreen.routeName);
               },
             ),
             ListTile(
               title: const Text('Profile'),
               trailing: const Icon(Icons.keyboard_arrow_right_outlined),
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ProfileScreen()));
+                Navigator.of(context).pushNamed(ProfileScreen.routeName);
               },
             ),
           ],
